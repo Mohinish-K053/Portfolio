@@ -1,6 +1,7 @@
 import picture1 from '/src/assets/projects/Picture-1.png';
 import picture2 from '/src/assets/projects/Picture-2.webp';
 import picture3 from '/src/assets/projects/Picture-3.webp';
+import picture4 from '/src/assets/projects/Picture-4.png'
 
 export const PROJECTS = [
   {
@@ -26,7 +27,7 @@ export const PROJECTS = [
   },
   {
     title: "Quorica",
-    image: null,
+    image: picture4,
     description:
       "Quorica is a cloud-based web application designed to provide secure storage for your data. With features like QR code-based folder access, identity verification, and multiple authentication methods, Quorica ensures that your files are safely stored and shared only with those you trust. Whether you're an individual looking to store personal data or a business seeking secure document sharing, Quorica offers a seamless experience with robust security and a user-friendly interface.",
     technologies: ["React js", "python", "flask", "AWS Cognito", "MongoDB", "terraform"],
